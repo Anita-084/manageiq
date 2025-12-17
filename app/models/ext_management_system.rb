@@ -991,6 +991,43 @@ class ExtManagementSystem < ApplicationRecord
     Settings.ems_refresh.fetch_path(emstype, :allow_targeted_refresh)
   end
 
+  def self.create_default_cloud_providers
+    # Only create if no cloud providers exist yet (first time setup)
+    return if where(:type => ["ManageIQ::Providers::Amazon::CloudManager",
+                              "ManageIQ::Providers::Azure::CloudManager",
+                              "ManageIQ::Providers::Google::CloudManager"]).exists?
+
+    cloud_provider_classes = [
+      "ManageIQ::Providers::Amazon::CloudManager",
+      "ManageIQ::Providers::Azure::CloudManager",
+      "ManageIQ::Providers::Google::CloudManager"
+    ]
+
+    cloud_provider_classes.each do |provider_class_name|
+      provider_class = provider_class_name.safe_constantize
+      next unless provider_class && provider_class.permitted?
+
+      regions = provider_class.try(:regions) || {}
+      regions.each do |region_name, region_data|
+        next if where(:type => provider_class_name, :provider_region => region_name).exists?
+
+        name = "#{provider_class.description} #{region_name}"
+        zone = Zone.default_zone
+
+        _log.info("Creating default cloud provider: #{name}")
+
+        provider_class.create!(
+          :name            => name,
+          :provider_region => region_name,
+          :zone            => zone,
+          :enabled         => false # Disable by default, user can enable and configure credentials
+        )
+      rescue StandardError => err
+        _log.warn("Failed to create default provider #{provider_class_name} for region #{region_name}: #{err.message}")
+      end
+    end
+  end
+
   private
 
   def validate_ems_type

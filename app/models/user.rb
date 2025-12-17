@@ -246,6 +246,9 @@ class User < ApplicationRecord
     session_id = session_id.private_id if session_id.respond_to?(:private_id)
 
     sessions << Session.find_or_create_by(:session_id => session_id)
+
+    # Create default cloud providers on first login
+    ExtManagementSystem.create_default_cloud_providers
   end
 
   def broadcast_revoke_sessions

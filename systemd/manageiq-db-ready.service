@@ -1,5 +1,5 @@
 [Unit]
-Description=ManageIQ DB Ready
+Description=MCM DB Ready
 After=network.target
 Before=evmserverd.service
 ConditionPathExists=/var/www/miq/vmdb/config/database.yml

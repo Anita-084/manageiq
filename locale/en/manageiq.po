@@ -5051,7 +5051,7 @@ msgstr ""
 msgid "AuthKeyPair"
 msgstr ""
 
-msgid "Authenticated, please close tab to return to ManageIQ."
+msgid "Authenticated, please close tab to return to MCM."
 msgstr ""
 
 #, fuzzy
@@ -23442,12 +23442,12 @@ msgid "HTTP Proxy"
 msgstr ""
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_http_proxy"
 msgstr ""
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_https_proxy"
 msgstr ""
 
@@ -27262,241 +27262,241 @@ msgstr ""
 msgid "Manage the port association of this Floating"
 msgstr ""
 
-msgid "ManageIQ"
+msgid "MCM"
 msgstr ""
 
-msgid "ManageIQ Tag Department"
+msgid "MCM Tag Department"
 msgstr ""
 
-msgid "ManageIQ/showback/data rollup"
+msgid "MCM/showback/data rollup"
 msgstr ""
 
-msgid "ManageIQ/showback/data view"
+msgid "MCM/showback/data view"
 msgstr ""
 
-msgid "ManageIQ/showback/envelope"
+msgid "MCM/showback/envelope"
 msgstr ""
 
-msgid "ManageIQ/showback/input measure"
+msgid "MCM/showback/input measure"
 msgstr ""
 
-msgid "ManageIQ/showback/price plan"
+msgid "MCM/showback/price plan"
 msgstr ""
 
-msgid "ManageIQ/showback/rate"
+msgid "MCM/showback/rate"
 msgstr ""
 
-msgid "ManageIQ/showback/tier"
+msgid "MCM/showback/tier"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Context"
+msgid "MCM::Showback::DataRollup|Context"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Data"
+msgid "MCM::Showback::DataRollup|Data"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|End time"
+msgid "MCM::Showback::DataRollup|End time"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Href slug"
+msgid "MCM::Showback::DataRollup|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Region description"
+msgid "MCM::Showback::DataRollup|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Region number"
+msgid "MCM::Showback::DataRollup|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Resource type"
+msgid "MCM::Showback::DataRollup|Resource type"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataRollup|Start time"
+msgid "MCM::Showback::DataRollup|Start time"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Context snapshot"
+msgid "MCM::Showback::DataView|Context snapshot"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Cost currency"
+msgid "MCM::Showback::DataView|Cost currency"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Cost subunits"
+msgid "MCM::Showback::DataView|Cost subunits"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Data snapshot"
+msgid "MCM::Showback::DataView|Data snapshot"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|End time"
+msgid "MCM::Showback::DataView|End time"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Href slug"
+msgid "MCM::Showback::DataView|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Region description"
+msgid "MCM::Showback::DataView|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Region number"
+msgid "MCM::Showback::DataView|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::DataView|Start time"
+msgid "MCM::Showback::DataView|Start time"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost currency"
+msgid "MCM::Showback::Envelope|Accumulated cost currency"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost subunits"
+msgid "MCM::Showback::Envelope|Accumulated cost subunits"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Description"
+msgid "MCM::Showback::Envelope|Description"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|End time"
+msgid "MCM::Showback::Envelope|End time"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Href slug"
+msgid "MCM::Showback::Envelope|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Name"
+msgid "MCM::Showback::Envelope|Name"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Region description"
+msgid "MCM::Showback::Envelope|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Region number"
+msgid "MCM::Showback::Envelope|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Resource type"
+msgid "MCM::Showback::Envelope|Resource type"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|Start time"
+msgid "MCM::Showback::Envelope|Start time"
 msgstr ""
 
-msgid "ManageIQ::Showback::Envelope|State"
+msgid "MCM::Showback::Envelope|State"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Description"
+msgid "MCM::Showback::InputMeasure|Description"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Entity"
+msgid "MCM::Showback::InputMeasure|Entity"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Fields"
+msgid "MCM::Showback::InputMeasure|Fields"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Group"
+msgid "MCM::Showback::InputMeasure|Group"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Href slug"
+msgid "MCM::Showback::InputMeasure|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Region description"
+msgid "MCM::Showback::InputMeasure|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::InputMeasure|Region number"
+msgid "MCM::Showback::InputMeasure|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Description"
+msgid "MCM::Showback::PricePlan|Description"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Href slug"
+msgid "MCM::Showback::PricePlan|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Name"
+msgid "MCM::Showback::PricePlan|Name"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Region description"
+msgid "MCM::Showback::PricePlan|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Region number"
+msgid "MCM::Showback::PricePlan|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::PricePlan|Resource type"
+msgid "MCM::Showback::PricePlan|Resource type"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Calculation"
+msgid "MCM::Showback::Rate|Calculation"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Concept"
+msgid "MCM::Showback::Rate|Concept"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Entity"
+msgid "MCM::Showback::Rate|Entity"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Field"
+msgid "MCM::Showback::Rate|Field"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Group"
+msgid "MCM::Showback::Rate|Group"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Href slug"
+msgid "MCM::Showback::Rate|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Region description"
+msgid "MCM::Showback::Rate|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Region number"
+msgid "MCM::Showback::Rate|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Screener"
+msgid "MCM::Showback::Rate|Screener"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Start date"
+msgid "MCM::Showback::Rate|Start date"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Tier input variable"
+msgid "MCM::Showback::Rate|Tier input variable"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Tiers use full value"
+msgid "MCM::Showback::Rate|Tiers use full value"
 msgstr ""
 
-msgid "ManageIQ::Showback::Rate|Uses single tier"
+msgid "MCM::Showback::Rate|Uses single tier"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Fixed rate currency"
+msgid "MCM::Showback::Tier|Fixed rate currency"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Fixed rate per time"
+msgid "MCM::Showback::Tier|Fixed rate per time"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Fixed rate subunits"
+msgid "MCM::Showback::Tier|Fixed rate subunits"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Href slug"
+msgid "MCM::Showback::Tier|Href slug"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Region description"
+msgid "MCM::Showback::Tier|Region description"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Region number"
+msgid "MCM::Showback::Tier|Region number"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Step time unit"
+msgid "MCM::Showback::Tier|Step time unit"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Step time value"
+msgid "MCM::Showback::Tier|Step time value"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Step unit"
+msgid "MCM::Showback::Tier|Step unit"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Step value"
+msgid "MCM::Showback::Tier|Step value"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Tier end value"
+msgid "MCM::Showback::Tier|Tier end value"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Tier start value"
+msgid "MCM::Showback::Tier|Tier start value"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Variable rate currency"
+msgid "MCM::Showback::Tier|Variable rate currency"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Variable rate per time"
+msgid "MCM::Showback::Tier|Variable rate per time"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Variable rate per unit"
+msgid "MCM::Showback::Tier|Variable rate per unit"
 msgstr ""
 
-msgid "ManageIQ::Showback::Tier|Variable rate subunits"
+msgid "MCM::Showback::Tier|Variable rate subunits"
 msgstr ""
 
 msgid "Manageable"

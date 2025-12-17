@@ -4994,8 +4994,8 @@ msgstr "자동 키 쌍"
 msgid "AuthKeyPair"
 msgstr "AuthKeyPair"
 
-msgid "Authenticated, please close tab to return to ManageIQ."
-msgstr "인증됨, ManageIQ로 돌아가려면 탭을 닫으십시오."
+msgid "Authenticated, please close tab to return to MCM."
+msgstr "인증됨, MCM로 돌아가려면 탭을 닫으십시오."
 
 msgid "Authentication"
 msgstr "인증"
@@ -23151,14 +23151,14 @@ msgid "HTTP Proxy"
 msgstr "HTTP 프록시"
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_http_proxy"
-msgstr "제공자에 ManageIQ를 연결할 HTTP 프록시입니다. 예: http://user:password@my_http_proxy"
+msgstr "제공자에 MCM를 연결할 HTTP 프록시입니다. 예: http://user:password@my_http_proxy"
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_https_proxy"
-msgstr "제공자에 ManageIQ를 연결할 HTTP 프록시입니다. 예: http://user:password@my_https_proxy"
+msgstr "제공자에 MCM를 연결할 HTTP 프록시입니다. 예: http://user:password@my_https_proxy"
 
 msgid ""
 "HTTP Proxy to connect image inspector pods to the internet. example: http://"
@@ -26897,242 +26897,242 @@ msgstr "테넌트 \"%s\"에 대한 할당량 관리가 사용자에 의해 취�
 msgid "Manage the port association of this Floating"
 msgstr "이 유동의 포트 연관 관리"
 
-msgid "ManageIQ"
-msgstr "ManageIQ"
+msgid "MCM"
+msgstr "MCM"
 
-msgid "ManageIQ Tag Department"
-msgstr "ManageIQ 태그 부서"
+msgid "MCM Tag Department"
+msgstr "MCM 태그 부서"
 
-msgid "ManageIQ/showback/data rollup"
-msgstr "ManageIQ/showback/data 롤업"
+msgid "MCM/showback/data rollup"
+msgstr "MCM/showback/data 롤업"
 
-msgid "ManageIQ/showback/data view"
-msgstr "ManageIQ/showback/data 보기"
+msgid "MCM/showback/data view"
+msgstr "MCM/showback/data 보기"
 
-msgid "ManageIQ/showback/envelope"
-msgstr "ManageIQ/showback/envelope"
+msgid "MCM/showback/envelope"
+msgstr "MCM/showback/envelope"
 
-msgid "ManageIQ/showback/input measure"
-msgstr "ManageIQ/showback/input 측정"
+msgid "MCM/showback/input measure"
+msgstr "MCM/showback/input 측정"
 
-msgid "ManageIQ/showback/price plan"
-msgstr "ManageIQ/showback/price 플랜"
+msgid "MCM/showback/price plan"
+msgstr "MCM/showback/price 플랜"
 
-msgid "ManageIQ/showback/rate"
-msgstr "ManageIQ/showback/rate"
+msgid "MCM/showback/rate"
+msgstr "MCM/showback/rate"
 
-msgid "ManageIQ/showback/tier"
-msgstr "ManageIQ/showback/tier"
+msgid "MCM/showback/tier"
+msgstr "MCM/showback/tier"
 
-msgid "ManageIQ::Showback::DataRollup|Context"
-msgstr "ManageIQ::Showback::DataRollup|컨텍스트"
+msgid "MCM::Showback::DataRollup|Context"
+msgstr "MCM::Showback::DataRollup|컨텍스트"
 
-msgid "ManageIQ::Showback::DataRollup|Data"
-msgstr "ManageIQ::Showback::DataRollup|데이터"
+msgid "MCM::Showback::DataRollup|Data"
+msgstr "MCM::Showback::DataRollup|데이터"
 
-msgid "ManageIQ::Showback::DataRollup|End time"
-msgstr "ManageIQ::Showback::DataRollup|종료 시간"
+msgid "MCM::Showback::DataRollup|End time"
+msgstr "MCM::Showback::DataRollup|종료 시간"
 
-msgid "ManageIQ::Showback::DataRollup|Href slug"
-msgstr "ManageIQ::Showback::DataRollup|Href 슬러그"
+msgid "MCM::Showback::DataRollup|Href slug"
+msgstr "MCM::Showback::DataRollup|Href 슬러그"
 
-msgid "ManageIQ::Showback::DataRollup|Region description"
-msgstr "ManageIQ::Showback::DataRollup|영역 설명"
+msgid "MCM::Showback::DataRollup|Region description"
+msgstr "MCM::Showback::DataRollup|영역 설명"
 
-msgid "ManageIQ::Showback::DataRollup|Region number"
-msgstr "ManageIQ::Showback::DataRollup|영역 번호"
+msgid "MCM::Showback::DataRollup|Region number"
+msgstr "MCM::Showback::DataRollup|영역 번호"
 
-msgid "ManageIQ::Showback::DataRollup|Resource type"
-msgstr "ManageIQ::Showback::DataRollup|자원 유형"
+msgid "MCM::Showback::DataRollup|Resource type"
+msgstr "MCM::Showback::DataRollup|자원 유형"
 
-msgid "ManageIQ::Showback::DataRollup|Start time"
-msgstr "ManageIQ::Showback::DataRollup|시작 시간"
+msgid "MCM::Showback::DataRollup|Start time"
+msgstr "MCM::Showback::DataRollup|시작 시간"
 
-msgid "ManageIQ::Showback::DataView|Context snapshot"
-msgstr "ManageIQ::Showback::DataView|컨텍스트 스냅샷"
+msgid "MCM::Showback::DataView|Context snapshot"
+msgstr "MCM::Showback::DataView|컨텍스트 스냅샷"
 
-msgid "ManageIQ::Showback::DataView|Cost currency"
-msgstr "ManageIQ::Showback::DataView|비용 통화"
+msgid "MCM::Showback::DataView|Cost currency"
+msgstr "MCM::Showback::DataView|비용 통화"
 
-msgid "ManageIQ::Showback::DataView|Cost subunits"
-msgstr "ManageIQ::Showback::DataView|비용 하위 단위"
+msgid "MCM::Showback::DataView|Cost subunits"
+msgstr "MCM::Showback::DataView|비용 하위 단위"
 
-msgid "ManageIQ::Showback::DataView|Data snapshot"
-msgstr "ManageIQ::Showback::DataView|데이터 스냅샷"
+msgid "MCM::Showback::DataView|Data snapshot"
+msgstr "MCM::Showback::DataView|데이터 스냅샷"
 
-msgid "ManageIQ::Showback::DataView|End time"
-msgstr "ManageIQ::Showback::DataView|종료 시간"
+msgid "MCM::Showback::DataView|End time"
+msgstr "MCM::Showback::DataView|종료 시간"
 
-msgid "ManageIQ::Showback::DataView|Href slug"
-msgstr "ManageIQ::Showback::DataView|Href 슬러그"
+msgid "MCM::Showback::DataView|Href slug"
+msgstr "MCM::Showback::DataView|Href 슬러그"
 
-msgid "ManageIQ::Showback::DataView|Region description"
-msgstr "ManageIQ::Showback::DataView|영역 설명"
+msgid "MCM::Showback::DataView|Region description"
+msgstr "MCM::Showback::DataView|영역 설명"
 
-msgid "ManageIQ::Showback::DataView|Region number"
-msgstr "ManageIQ::Showback::DataView|영역 번호"
+msgid "MCM::Showback::DataView|Region number"
+msgstr "MCM::Showback::DataView|영역 번호"
 
-msgid "ManageIQ::Showback::DataView|Start time"
-msgstr "ManageIQ::Showback::DataView|시작 시간"
+msgid "MCM::Showback::DataView|Start time"
+msgstr "MCM::Showback::DataView|시작 시간"
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost currency"
-msgstr "ManageIQ::Showback::Envelope|누적 비용 통화"
+msgid "MCM::Showback::Envelope|Accumulated cost currency"
+msgstr "MCM::Showback::Envelope|누적 비용 통화"
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost subunits"
-msgstr "ManageIQ::Showback::Envelope|누적 비용 하위 단위"
+msgid "MCM::Showback::Envelope|Accumulated cost subunits"
+msgstr "MCM::Showback::Envelope|누적 비용 하위 단위"
 
-msgid "ManageIQ::Showback::Envelope|Description"
-msgstr "ManageIQ::Showback::Envelope|설명"
+msgid "MCM::Showback::Envelope|Description"
+msgstr "MCM::Showback::Envelope|설명"
 
-msgid "ManageIQ::Showback::Envelope|End time"
-msgstr "ManageIQ::Showback::Envelope|종료 시간"
+msgid "MCM::Showback::Envelope|End time"
+msgstr "MCM::Showback::Envelope|종료 시간"
 
-msgid "ManageIQ::Showback::Envelope|Href slug"
-msgstr "ManageIQ::Showback::Envelope|Href 슬러그"
+msgid "MCM::Showback::Envelope|Href slug"
+msgstr "MCM::Showback::Envelope|Href 슬러그"
 
-msgid "ManageIQ::Showback::Envelope|Name"
-msgstr "ManageIQ::Showback::Envelope|이름"
+msgid "MCM::Showback::Envelope|Name"
+msgstr "MCM::Showback::Envelope|이름"
 
-msgid "ManageIQ::Showback::Envelope|Region description"
-msgstr "ManageIQ::Showback::Envelope|영역 설명"
+msgid "MCM::Showback::Envelope|Region description"
+msgstr "MCM::Showback::Envelope|영역 설명"
 
-msgid "ManageIQ::Showback::Envelope|Region number"
-msgstr "ManageIQ::Showback::Envelope|영역 번호"
+msgid "MCM::Showback::Envelope|Region number"
+msgstr "MCM::Showback::Envelope|영역 번호"
 
-msgid "ManageIQ::Showback::Envelope|Resource type"
-msgstr "ManageIQ::Showback::Envelope|자원 유형"
+msgid "MCM::Showback::Envelope|Resource type"
+msgstr "MCM::Showback::Envelope|자원 유형"
 
-msgid "ManageIQ::Showback::Envelope|Start time"
-msgstr "ManageIQ::Showback::Envelope|시작 시간"
+msgid "MCM::Showback::Envelope|Start time"
+msgstr "MCM::Showback::Envelope|시작 시간"
 
-msgid "ManageIQ::Showback::Envelope|State"
-msgstr "ManageIQ::Showback::Envelope|상태"
+msgid "MCM::Showback::Envelope|State"
+msgstr "MCM::Showback::Envelope|상태"
 
-msgid "ManageIQ::Showback::InputMeasure|Description"
-msgstr "ManageIQ::Showback::InputMeasure|설명"
+msgid "MCM::Showback::InputMeasure|Description"
+msgstr "MCM::Showback::InputMeasure|설명"
 
-msgid "ManageIQ::Showback::InputMeasure|Entity"
-msgstr "ManageIQ::Showback::InputMeasure|엔티티"
+msgid "MCM::Showback::InputMeasure|Entity"
+msgstr "MCM::Showback::InputMeasure|엔티티"
 
-msgid "ManageIQ::Showback::InputMeasure|Fields"
-msgstr "ManageIQ::Showback::InputMeasure|필드"
+msgid "MCM::Showback::InputMeasure|Fields"
+msgstr "MCM::Showback::InputMeasure|필드"
 
-msgid "ManageIQ::Showback::InputMeasure|Group"
-msgstr "ManageIQ::Showback::InputMeasure|그룹"
+msgid "MCM::Showback::InputMeasure|Group"
+msgstr "MCM::Showback::InputMeasure|그룹"
 
-msgid "ManageIQ::Showback::InputMeasure|Href slug"
-msgstr "ManageIQ::Showback::InputMeasure|Href 슬러그"
+msgid "MCM::Showback::InputMeasure|Href slug"
+msgstr "MCM::Showback::InputMeasure|Href 슬러그"
 
-msgid "ManageIQ::Showback::InputMeasure|Region description"
-msgstr "ManageIQ::Showback::InputMeasure|영역 설명"
+msgid "MCM::Showback::InputMeasure|Region description"
+msgstr "MCM::Showback::InputMeasure|영역 설명"
 
-msgid "ManageIQ::Showback::InputMeasure|Region number"
-msgstr "ManageIQ::Showback::InputMeasure|영역 번호"
+msgid "MCM::Showback::InputMeasure|Region number"
+msgstr "MCM::Showback::InputMeasure|영역 번호"
 
-msgid "ManageIQ::Showback::PricePlan|Description"
-msgstr "ManageIQ::Showback::PricePlan|설명"
+msgid "MCM::Showback::PricePlan|Description"
+msgstr "MCM::Showback::PricePlan|설명"
 
-msgid "ManageIQ::Showback::PricePlan|Href slug"
-msgstr "ManageIQ::Showback::PricePlan|Href 슬러그"
+msgid "MCM::Showback::PricePlan|Href slug"
+msgstr "MCM::Showback::PricePlan|Href 슬러그"
 
-msgid "ManageIQ::Showback::PricePlan|Name"
-msgstr "ManageIQ::Showback::PricePlan|이름"
+msgid "MCM::Showback::PricePlan|Name"
+msgstr "MCM::Showback::PricePlan|이름"
 
-msgid "ManageIQ::Showback::PricePlan|Region description"
-msgstr "ManageIQ::Showback::PricePlan|영역 설명"
+msgid "MCM::Showback::PricePlan|Region description"
+msgstr "MCM::Showback::PricePlan|영역 설명"
 
-msgid "ManageIQ::Showback::PricePlan|Region number"
-msgstr "ManageIQ::Showback::PricePlan|영역 번호"
+msgid "MCM::Showback::PricePlan|Region number"
+msgstr "MCM::Showback::PricePlan|영역 번호"
 
-msgid "ManageIQ::Showback::PricePlan|Resource type"
-msgstr "ManageIQ::Showback::PricePlan|자원 유형"
+msgid "MCM::Showback::PricePlan|Resource type"
+msgstr "MCM::Showback::PricePlan|자원 유형"
 
-msgid "ManageIQ::Showback::Rate|Calculation"
-msgstr "ManageIQ::Showback::Rate|계산"
+msgid "MCM::Showback::Rate|Calculation"
+msgstr "MCM::Showback::Rate|계산"
 
-msgid "ManageIQ::Showback::Rate|Concept"
-msgstr "ManageIQ::Showback::Rate|개념"
+msgid "MCM::Showback::Rate|Concept"
+msgstr "MCM::Showback::Rate|개념"
 
-msgid "ManageIQ::Showback::Rate|Entity"
-msgstr "ManageIQ::Showback::Rate|엔티티"
+msgid "MCM::Showback::Rate|Entity"
+msgstr "MCM::Showback::Rate|엔티티"
 
-msgid "ManageIQ::Showback::Rate|Field"
-msgstr "ManageIQ::Showback::Rate|필드"
+msgid "MCM::Showback::Rate|Field"
+msgstr "MCM::Showback::Rate|필드"
 
-msgid "ManageIQ::Showback::Rate|Group"
-msgstr "ManageIQ::Showback::Rate|그룹"
+msgid "MCM::Showback::Rate|Group"
+msgstr "MCM::Showback::Rate|그룹"
 
-msgid "ManageIQ::Showback::Rate|Href slug"
-msgstr "ManageIQ::Showback::Rate|Href 슬러그"
+msgid "MCM::Showback::Rate|Href slug"
+msgstr "MCM::Showback::Rate|Href 슬러그"
 
-msgid "ManageIQ::Showback::Rate|Region description"
-msgstr "ManageIQ::Showback::Rate|영역 설명"
+msgid "MCM::Showback::Rate|Region description"
+msgstr "MCM::Showback::Rate|영역 설명"
 
-msgid "ManageIQ::Showback::Rate|Region number"
-msgstr "ManageIQ::Showback::Rate|영역 번호"
+msgid "MCM::Showback::Rate|Region number"
+msgstr "MCM::Showback::Rate|영역 번호"
 
-msgid "ManageIQ::Showback::Rate|Screener"
-msgstr "ManageIQ::Showback::Rate|스크리너"
+msgid "MCM::Showback::Rate|Screener"
+msgstr "MCM::Showback::Rate|스크리너"
 
-msgid "ManageIQ::Showback::Rate|Start date"
-msgstr "ManageIQ::Showback::Rate|시작 날짜"
+msgid "MCM::Showback::Rate|Start date"
+msgstr "MCM::Showback::Rate|시작 날짜"
 
-msgid "ManageIQ::Showback::Rate|Tier input variable"
-msgstr "ManageIQ::Showback::Rate|티어 입력 변수"
+msgid "MCM::Showback::Rate|Tier input variable"
+msgstr "MCM::Showback::Rate|티어 입력 변수"
 
-msgid "ManageIQ::Showback::Rate|Tiers use full value"
-msgstr "ManageIQ::Showback::Rate|티어가 전체 값을 사용함"
+msgid "MCM::Showback::Rate|Tiers use full value"
+msgstr "MCM::Showback::Rate|티어가 전체 값을 사용함"
 
-msgid "ManageIQ::Showback::Rate|Uses single tier"
-msgstr "ManageIQ::Showback::Rate|단일 티어 사용"
+msgid "MCM::Showback::Rate|Uses single tier"
+msgstr "MCM::Showback::Rate|단일 티어 사용"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate currency"
-msgstr "ManageIQ::Showback::Tier|고정 환율 통화"
+msgid "MCM::Showback::Tier|Fixed rate currency"
+msgstr "MCM::Showback::Tier|고정 환율 통화"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate per time"
-msgstr "ManageIQ::Showback::Tier|횟수당 고정 비율"
+msgid "MCM::Showback::Tier|Fixed rate per time"
+msgstr "MCM::Showback::Tier|횟수당 고정 비율"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate subunits"
-msgstr "ManageIQ::Showback::Tier|고정 비율 하위 단위"
+msgid "MCM::Showback::Tier|Fixed rate subunits"
+msgstr "MCM::Showback::Tier|고정 비율 하위 단위"
 
-msgid "ManageIQ::Showback::Tier|Href slug"
-msgstr "ManageIQ::Showback::Tier|Href 슬러그"
+msgid "MCM::Showback::Tier|Href slug"
+msgstr "MCM::Showback::Tier|Href 슬러그"
 
-msgid "ManageIQ::Showback::Tier|Region description"
-msgstr "ManageIQ::Showback::Tier|영역 설명"
+msgid "MCM::Showback::Tier|Region description"
+msgstr "MCM::Showback::Tier|영역 설명"
 
-msgid "ManageIQ::Showback::Tier|Region number"
-msgstr "ManageIQ::Showback::Tier|영역 번호"
+msgid "MCM::Showback::Tier|Region number"
+msgstr "MCM::Showback::Tier|영역 번호"
 
-msgid "ManageIQ::Showback::Tier|Step time unit"
-msgstr "ManageIQ::Showback::Tier|단계 시간 단위"
+msgid "MCM::Showback::Tier|Step time unit"
+msgstr "MCM::Showback::Tier|단계 시간 단위"
 
-msgid "ManageIQ::Showback::Tier|Step time value"
-msgstr "ManageIQ::Showback::Tier|단계 시간 값"
+msgid "MCM::Showback::Tier|Step time value"
+msgstr "MCM::Showback::Tier|단계 시간 값"
 
-msgid "ManageIQ::Showback::Tier|Step unit"
-msgstr "ManageIQ::Showback::Tier|단계 단위"
+msgid "MCM::Showback::Tier|Step unit"
+msgstr "MCM::Showback::Tier|단계 단위"
 
-msgid "ManageIQ::Showback::Tier|Step value"
-msgstr "ManageIQ::Showback::Tier|단계 값"
+msgid "MCM::Showback::Tier|Step value"
+msgstr "MCM::Showback::Tier|단계 값"
 
-msgid "ManageIQ::Showback::Tier|Tier end value"
-msgstr "ManageIQ::Showback::Tier|티어 및 값"
+msgid "MCM::Showback::Tier|Tier end value"
+msgstr "MCM::Showback::Tier|티어 및 값"
 
-msgid "ManageIQ::Showback::Tier|Tier start value"
-msgstr "ManageIQ::Showback::Tier|티어 시작 값"
+msgid "MCM::Showback::Tier|Tier start value"
+msgstr "MCM::Showback::Tier|티어 시작 값"
 
-msgid "ManageIQ::Showback::Tier|Variable rate currency"
-msgstr "ManageIQ::Showback::Tier|가변 비율 통화"
+msgid "MCM::Showback::Tier|Variable rate currency"
+msgstr "MCM::Showback::Tier|가변 비율 통화"
 
-msgid "ManageIQ::Showback::Tier|Variable rate per time"
-msgstr "ManageIQ::Showback::Tier|횟수당 가변 비율"
+msgid "MCM::Showback::Tier|Variable rate per time"
+msgstr "MCM::Showback::Tier|횟수당 가변 비율"
 
-msgid "ManageIQ::Showback::Tier|Variable rate per unit"
-msgstr "ManageIQ::Showback::Tier|단위당 가변 비율"
+msgid "MCM::Showback::Tier|Variable rate per unit"
+msgstr "MCM::Showback::Tier|단위당 가변 비율"
 
-msgid "ManageIQ::Showback::Tier|Variable rate subunits"
-msgstr "ManageIQ::Showback::Tier|가변 비율 하위 단위"
+msgid "MCM::Showback::Tier|Variable rate subunits"
+msgstr "MCM::Showback::Tier|가변 비율 하위 단위"
 
 msgid "Manageable"
 msgstr "관리 가능"

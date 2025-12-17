@@ -89,11 +89,11 @@
     - VimPerformanceState
     - Vm
 :docs:
-  :product_documentation_website: https://www.manageiq.org/docs/
-  :product_documentation_direct_link: true
-  :product_support_website: https://www.manageiq.org
-  :product_support_website_text: ManageIQ.org
-  :ansible_provider: https://manageiq.org/docs/reference/latest/managing_providers/#adding-an-ansible-tower-provider
+:product_documentation_website: https://www.manageiq.org/docs/
+:product_documentation_direct_link: true
+:product_support_website: https://www.manageiq.org
+:product_support_website_text: MCM.org
+:ansible_provider: https://manageiq.org/docs/reference/latest/managing_providers/#adding-an-ansible-tower-provider
   :cloud_provider: https://manageiq.org/docs/reference/latest/managing_providers/#cloud-providers
   :configuration_provider: https://manageiq.org/docs/reference/latest/managing_providers/#configuration-management-providers
   :container_provider: https://manageiq.org/docs/reference/latest/managing_providers/#containers-providers
@@ -122,7 +122,7 @@
   :full_refresh_threshold: 100
   :syndicate_inventory: false
   :raise_vm_snapshot_complete_if_created_within: 15.minutes
-  :refresh_interval: 24.hours
+  :refresh_interval: 30.minutes
 :event_handling:
   :bottleneck_event_groups:
     :Capacity:

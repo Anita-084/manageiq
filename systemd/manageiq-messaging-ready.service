@@ -1,5 +1,5 @@
 [Unit]
-Description=ManageIQ Messaging Ready
+Description=MCM Messaging Ready
 After=network.target
 Before=evmserverd.service
 ConditionPathExists=/var/www/miq/vmdb/config/messaging.yml

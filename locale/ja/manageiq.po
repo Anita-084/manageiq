@@ -4999,8 +4999,8 @@ msgstr "認証鍵ペア"
 msgid "AuthKeyPair"
 msgstr "AuthKeyPair"
 
-msgid "Authenticated, please close tab to return to ManageIQ."
-msgstr "認証が完了しました、タブを閉じて ManageIQ に戻ってください"
+msgid "Authenticated, please close tab to return to MCM."
+msgstr "認証が完了しました、タブを閉じて MCM に戻ってください"
 
 msgid "Authentication"
 msgstr "認証"
@@ -23161,16 +23161,16 @@ msgid "HTTP Proxy"
 msgstr "HTTP プロキシー"
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_http_proxy"
 msgstr ""
-"ManageIQ をプロバイダーに接続するための HTTP プロキシー。例: http://user:password@my_http_proxy"
+"MCM をプロバイダーに接続するための HTTP プロキシー。例: http://user:password@my_http_proxy"
 
 msgid ""
-"HTTP Proxy to connect ManageIQ to the provider. example: http://user:password@"
+"HTTP Proxy to connect MCM to the provider. example: http://user:password@"
 "my_https_proxy"
 msgstr ""
-"ManageIQ をプロバイダーに接続するための HTTP プロキシー。例: http://user:password@my_https_proxy"
+"MCM をプロバイダーに接続するための HTTP プロキシー。例: http://user:password@my_https_proxy"
 
 msgid ""
 "HTTP Proxy to connect image inspector pods to the internet. example: http://"
@@ -26912,242 +26912,242 @@ msgstr "テナント「%s」のクォータの管理はユーザーにより取�
 msgid "Manage the port association of this Floating"
 msgstr "このフローティング IP のポートの関連付けの管理"
 
-msgid "ManageIQ"
-msgstr "ManageIQ"
+msgid "MCM"
+msgstr "MCM"
 
-msgid "ManageIQ Tag Department"
-msgstr "ManageIQ タグ (部門別)"
+msgid "MCM Tag Department"
+msgstr "MCM タグ (部門別)"
 
-msgid "ManageIQ/showback/data rollup"
-msgstr "ManageIQ/showback/data ロールアップ"
+msgid "MCM/showback/data rollup"
+msgstr "MCM/showback/data ロールアップ"
 
-msgid "ManageIQ/showback/data view"
-msgstr "ManageIQ/showback/data ビュー"
+msgid "MCM/showback/data view"
+msgstr "MCM/showback/data ビュー"
 
-msgid "ManageIQ/showback/envelope"
-msgstr "ManageIQ/showback/envelope"
+msgid "MCM/showback/envelope"
+msgstr "MCM/showback/envelope"
 
-msgid "ManageIQ/showback/input measure"
-msgstr "ManageIQ/showback/input 数値データ"
+msgid "MCM/showback/input measure"
+msgstr "MCM/showback/input 数値データ"
 
-msgid "ManageIQ/showback/price plan"
-msgstr "ManageIQ/showback/price プラン"
+msgid "MCM/showback/price plan"
+msgstr "MCM/showback/price プラン"
 
-msgid "ManageIQ/showback/rate"
-msgstr "ManageIQ/showback/rate"
+msgid "MCM/showback/rate"
+msgstr "MCM/showback/rate"
 
-msgid "ManageIQ/showback/tier"
-msgstr "ManageIQ/showback/tier"
+msgid "MCM/showback/tier"
+msgstr "MCM/showback/tier"
 
-msgid "ManageIQ::Showback::DataRollup|Context"
-msgstr "ManageIQ::Showback::DataRollup|コンテキスト"
+msgid "MCM::Showback::DataRollup|Context"
+msgstr "MCM::Showback::DataRollup|コンテキスト"
 
-msgid "ManageIQ::Showback::DataRollup|Data"
-msgstr "ManageIQ::Showback::DataRollup|データ"
+msgid "MCM::Showback::DataRollup|Data"
+msgstr "MCM::Showback::DataRollup|データ"
 
-msgid "ManageIQ::Showback::DataRollup|End time"
-msgstr "ManageIQ::Showback::DataRollup|終了時刻"
+msgid "MCM::Showback::DataRollup|End time"
+msgstr "MCM::Showback::DataRollup|終了時刻"
 
-msgid "ManageIQ::Showback::DataRollup|Href slug"
-msgstr "ManageIQ::Showback::DataRollup|Href スラッグ"
+msgid "MCM::Showback::DataRollup|Href slug"
+msgstr "MCM::Showback::DataRollup|Href スラッグ"
 
-msgid "ManageIQ::Showback::DataRollup|Region description"
-msgstr "ManageIQ::Showback::DataRollup|地域の説明"
+msgid "MCM::Showback::DataRollup|Region description"
+msgstr "MCM::Showback::DataRollup|地域の説明"
 
-msgid "ManageIQ::Showback::DataRollup|Region number"
-msgstr "ManageIQ::Showback::DataRollup|地域番号"
+msgid "MCM::Showback::DataRollup|Region number"
+msgstr "MCM::Showback::DataRollup|地域番号"
 
-msgid "ManageIQ::Showback::DataRollup|Resource type"
-msgstr "ManageIQ::Showback::DataRollup|リソース・タイプ"
+msgid "MCM::Showback::DataRollup|Resource type"
+msgstr "MCM::Showback::DataRollup|リソース・タイプ"
 
-msgid "ManageIQ::Showback::DataRollup|Start time"
-msgstr "ManageIQ::Showback::DataRollup|開始時刻"
+msgid "MCM::Showback::DataRollup|Start time"
+msgstr "MCM::Showback::DataRollup|開始時刻"
 
-msgid "ManageIQ::Showback::DataView|Context snapshot"
-msgstr "ManageIQ::Showback::DataView|コンテキスト・スナップショット"
+msgid "MCM::Showback::DataView|Context snapshot"
+msgstr "MCM::Showback::DataView|コンテキスト・スナップショット"
 
-msgid "ManageIQ::Showback::DataView|Cost currency"
-msgstr "ManageIQ::Showback::DataView|コスト通貨"
+msgid "MCM::Showback::DataView|Cost currency"
+msgstr "MCM::Showback::DataView|コスト通貨"
 
-msgid "ManageIQ::Showback::DataView|Cost subunits"
-msgstr "ManageIQ::Showback::DataView|コスト・サブユニット"
+msgid "MCM::Showback::DataView|Cost subunits"
+msgstr "MCM::Showback::DataView|コスト・サブユニット"
 
-msgid "ManageIQ::Showback::DataView|Data snapshot"
-msgstr "ManageIQ::Showback::DataView|データ・スナップショット"
+msgid "MCM::Showback::DataView|Data snapshot"
+msgstr "MCM::Showback::DataView|データ・スナップショット"
 
-msgid "ManageIQ::Showback::DataView|End time"
-msgstr "ManageIQ::Showback::DataView|終了時刻"
+msgid "MCM::Showback::DataView|End time"
+msgstr "MCM::Showback::DataView|終了時刻"
 
-msgid "ManageIQ::Showback::DataView|Href slug"
-msgstr "ManageIQ::Showback::DataView|Href スラッグ"
+msgid "MCM::Showback::DataView|Href slug"
+msgstr "MCM::Showback::DataView|Href スラッグ"
 
-msgid "ManageIQ::Showback::DataView|Region description"
-msgstr "ManageIQ::Showback::DataView|地域の説明"
+msgid "MCM::Showback::DataView|Region description"
+msgstr "MCM::Showback::DataView|地域の説明"
 
-msgid "ManageIQ::Showback::DataView|Region number"
-msgstr "ManageIQ::Showback::DataView|地域番号"
+msgid "MCM::Showback::DataView|Region number"
+msgstr "MCM::Showback::DataView|地域番号"
 
-msgid "ManageIQ::Showback::DataView|Start time"
-msgstr "ManageIQ::Showback::DataView|開始時刻"
+msgid "MCM::Showback::DataView|Start time"
+msgstr "MCM::Showback::DataView|開始時刻"
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost currency"
-msgstr "ManageIQ::Showback::Envelope|累積コスト通貨"
+msgid "MCM::Showback::Envelope|Accumulated cost currency"
+msgstr "MCM::Showback::Envelope|累積コスト通貨"
 
-msgid "ManageIQ::Showback::Envelope|Accumulated cost subunits"
-msgstr "ManageIQ::Showback::Envelope|累積コスト・サブユニット"
+msgid "MCM::Showback::Envelope|Accumulated cost subunits"
+msgstr "MCM::Showback::Envelope|累積コスト・サブユニット"
 
-msgid "ManageIQ::Showback::Envelope|Description"
-msgstr "ManageIQ::Showback::Envelope|説明"
+msgid "MCM::Showback::Envelope|Description"
+msgstr "MCM::Showback::Envelope|説明"
 
-msgid "ManageIQ::Showback::Envelope|End time"
-msgstr "ManageIQ::Showback::Envelope|終了時刻"
+msgid "MCM::Showback::Envelope|End time"
+msgstr "MCM::Showback::Envelope|終了時刻"
 
-msgid "ManageIQ::Showback::Envelope|Href slug"
-msgstr "ManageIQ::Showback::Envelope|Href スラッグ"
+msgid "MCM::Showback::Envelope|Href slug"
+msgstr "MCM::Showback::Envelope|Href スラッグ"
 
-msgid "ManageIQ::Showback::Envelope|Name"
-msgstr "ManageIQ::Showback::Envelope|名前"
+msgid "MCM::Showback::Envelope|Name"
+msgstr "MCM::Showback::Envelope|名前"
 
-msgid "ManageIQ::Showback::Envelope|Region description"
-msgstr "ManageIQ::Showback::Envelope|領域の説明"
+msgid "MCM::Showback::Envelope|Region description"
+msgstr "MCM::Showback::Envelope|領域の説明"
 
-msgid "ManageIQ::Showback::Envelope|Region number"
-msgstr "ManageIQ::Showback::Envelope|領域番号"
+msgid "MCM::Showback::Envelope|Region number"
+msgstr "MCM::Showback::Envelope|領域番号"
 
-msgid "ManageIQ::Showback::Envelope|Resource type"
-msgstr "ManageIQ::Showback::Envelope|リソース・タイプ"
+msgid "MCM::Showback::Envelope|Resource type"
+msgstr "MCM::Showback::Envelope|リソース・タイプ"
 
-msgid "ManageIQ::Showback::Envelope|Start time"
-msgstr "ManageIQ::Showback::Envelope|開始時刻"
+msgid "MCM::Showback::Envelope|Start time"
+msgstr "MCM::Showback::Envelope|開始時刻"
 
-msgid "ManageIQ::Showback::Envelope|State"
-msgstr "ManageIQ::Showback::Envelope|状態"
+msgid "MCM::Showback::Envelope|State"
+msgstr "MCM::Showback::Envelope|状態"
 
-msgid "ManageIQ::Showback::InputMeasure|Description"
-msgstr "ManageIQ::Showback::InputMeasure|説明"
+msgid "MCM::Showback::InputMeasure|Description"
+msgstr "MCM::Showback::InputMeasure|説明"
 
-msgid "ManageIQ::Showback::InputMeasure|Entity"
-msgstr "ManageIQ::Showback::InputMeasure|エンティティー"
+msgid "MCM::Showback::InputMeasure|Entity"
+msgstr "MCM::Showback::InputMeasure|エンティティー"
 
-msgid "ManageIQ::Showback::InputMeasure|Fields"
-msgstr "ManageIQ::Showback::InputMeasure|フィールド"
+msgid "MCM::Showback::InputMeasure|Fields"
+msgstr "MCM::Showback::InputMeasure|フィールド"
 
-msgid "ManageIQ::Showback::InputMeasure|Group"
-msgstr "ManageIQ::Showback::InputMeasure|グループ"
+msgid "MCM::Showback::InputMeasure|Group"
+msgstr "MCM::Showback::InputMeasure|グループ"
 
-msgid "ManageIQ::Showback::InputMeasure|Href slug"
-msgstr "ManageIQ::Showback::InputMeasure|Href スラッグ"
+msgid "MCM::Showback::InputMeasure|Href slug"
+msgstr "MCM::Showback::InputMeasure|Href スラッグ"
 
-msgid "ManageIQ::Showback::InputMeasure|Region description"
-msgstr "ManageIQ::Showback::InputMeasure|領域の説明"
+msgid "MCM::Showback::InputMeasure|Region description"
+msgstr "MCM::Showback::InputMeasure|領域の説明"
 
-msgid "ManageIQ::Showback::InputMeasure|Region number"
-msgstr "ManageIQ::Showback::InputMeasure|地域番号"
+msgid "MCM::Showback::InputMeasure|Region number"
+msgstr "MCM::Showback::InputMeasure|地域番号"
 
-msgid "ManageIQ::Showback::PricePlan|Description"
-msgstr "ManageIQ::Showback::PricePlan|説明"
+msgid "MCM::Showback::PricePlan|Description"
+msgstr "MCM::Showback::PricePlan|説明"
 
-msgid "ManageIQ::Showback::PricePlan|Href slug"
-msgstr "ManageIQ::Showback::PricePlan|Href スラッグ"
+msgid "MCM::Showback::PricePlan|Href slug"
+msgstr "MCM::Showback::PricePlan|Href スラッグ"
 
-msgid "ManageIQ::Showback::PricePlan|Name"
-msgstr "ManageIQ::Showback::PricePlan|名前"
+msgid "MCM::Showback::PricePlan|Name"
+msgstr "MCM::Showback::PricePlan|名前"
 
-msgid "ManageIQ::Showback::PricePlan|Region description"
-msgstr "ManageIQ::Showback::PricePlan|地域の説明"
+msgid "MCM::Showback::PricePlan|Region description"
+msgstr "MCM::Showback::PricePlan|地域の説明"
 
-msgid "ManageIQ::Showback::PricePlan|Region number"
-msgstr "ManageIQ::Showback::PricePlan|地域番号"
+msgid "MCM::Showback::PricePlan|Region number"
+msgstr "MCM::Showback::PricePlan|地域番号"
 
-msgid "ManageIQ::Showback::PricePlan|Resource type"
-msgstr "ManageIQ::Showback::PricePlan|リソース・タイプ"
+msgid "MCM::Showback::PricePlan|Resource type"
+msgstr "MCM::Showback::PricePlan|リソース・タイプ"
 
-msgid "ManageIQ::Showback::Rate|Calculation"
-msgstr "ManageIQ::Showback::Ratee|計算"
+msgid "MCM::Showback::Rate|Calculation"
+msgstr "MCM::Showback::Ratee|計算"
 
-msgid "ManageIQ::Showback::Rate|Concept"
-msgstr "ManageIQ::Showback::Rate|概念"
+msgid "MCM::Showback::Rate|Concept"
+msgstr "MCM::Showback::Rate|概念"
 
-msgid "ManageIQ::Showback::Rate|Entity"
-msgstr "ManageIQ::Showback::Rate|エンティティー"
+msgid "MCM::Showback::Rate|Entity"
+msgstr "MCM::Showback::Rate|エンティティー"
 
-msgid "ManageIQ::Showback::Rate|Field"
-msgstr "ManageIQ::Showback::Rate|フィールド"
+msgid "MCM::Showback::Rate|Field"
+msgstr "MCM::Showback::Rate|フィールド"
 
-msgid "ManageIQ::Showback::Rate|Group"
-msgstr "ManageIQ::Showback::Rate|グループ"
+msgid "MCM::Showback::Rate|Group"
+msgstr "MCM::Showback::Rate|グループ"
 
-msgid "ManageIQ::Showback::Rate|Href slug"
-msgstr "ManageIQ::Showback::Rate|Href スラッグ"
+msgid "MCM::Showback::Rate|Href slug"
+msgstr "MCM::Showback::Rate|Href スラッグ"
 
-msgid "ManageIQ::Showback::Rate|Region description"
-msgstr "ManageIQ::Showback::Rate|地域の説明"
+msgid "MCM::Showback::Rate|Region description"
+msgstr "MCM::Showback::Rate|地域の説明"
 
-msgid "ManageIQ::Showback::Rate|Region number"
-msgstr "ManageIQ::Showback::Rate|地域番号"
+msgid "MCM::Showback::Rate|Region number"
+msgstr "MCM::Showback::Rate|地域番号"
 
-msgid "ManageIQ::Showback::Rate|Screener"
-msgstr "ManageIQ::Showback::Rate|スクリーナー"
+msgid "MCM::Showback::Rate|Screener"
+msgstr "MCM::Showback::Rate|スクリーナー"
 
-msgid "ManageIQ::Showback::Rate|Start date"
-msgstr "ManageIQ::Showback::Rate|開始日"
+msgid "MCM::Showback::Rate|Start date"
+msgstr "MCM::Showback::Rate|開始日"
 
-msgid "ManageIQ::Showback::Rate|Tier input variable"
-msgstr "ManageIQ::Showback::Rate|Tier 入力変数"
+msgid "MCM::Showback::Rate|Tier input variable"
+msgstr "MCM::Showback::Rate|Tier 入力変数"
 
-msgid "ManageIQ::Showback::Rate|Tiers use full value"
-msgstr "ManageIQ::Showback::Rate|Tiers use full value"
+msgid "MCM::Showback::Rate|Tiers use full value"
+msgstr "MCM::Showback::Rate|Tiers use full value"
 
-msgid "ManageIQ::Showback::Rate|Uses single tier"
-msgstr "ManageIQ::Showback::Rate|単一層を使用"
+msgid "MCM::Showback::Rate|Uses single tier"
+msgstr "MCM::Showback::Rate|単一層を使用"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate currency"
-msgstr "ManageIQ::Showback::Tier|固定レート通貨"
+msgid "MCM::Showback::Tier|Fixed rate currency"
+msgstr "MCM::Showback::Tier|固定レート通貨"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate per time"
-msgstr "ManageIQ::Showback::Tier|時間当たりの固定レート"
+msgid "MCM::Showback::Tier|Fixed rate per time"
+msgstr "MCM::Showback::Tier|時間当たりの固定レート"
 
-msgid "ManageIQ::Showback::Tier|Fixed rate subunits"
-msgstr "ManageIQ::Showback::Tier|固定レート・サブユニット"
+msgid "MCM::Showback::Tier|Fixed rate subunits"
+msgstr "MCM::Showback::Tier|固定レート・サブユニット"
 
-msgid "ManageIQ::Showback::Tier|Href slug"
-msgstr "ManageIQ::Showback::Tier|Href スラッグ"
+msgid "MCM::Showback::Tier|Href slug"
+msgstr "MCM::Showback::Tier|Href スラッグ"
 
-msgid "ManageIQ::Showback::Tier|Region description"
-msgstr "ManageIQ::Showback::Tier|地域の説明"
+msgid "MCM::Showback::Tier|Region description"
+msgstr "MCM::Showback::Tier|地域の説明"
 
-msgid "ManageIQ::Showback::Tier|Region number"
-msgstr "ManageIQ::Showback::Tier|地域番号"
+msgid "MCM::Showback::Tier|Region number"
+msgstr "MCM::Showback::Tier|地域番号"
 
-msgid "ManageIQ::Showback::Tier|Step time unit"
-msgstr "ManageIQ::Showback::Tier|ステップの時間単位"
+msgid "MCM::Showback::Tier|Step time unit"
+msgstr "MCM::Showback::Tier|ステップの時間単位"
 
-msgid "ManageIQ::Showback::Tier|Step time value"
-msgstr "ManageIQ::Showback::Tier|ステップ時間値"
+msgid "MCM::Showback::Tier|Step time value"
+msgstr "MCM::Showback::Tier|ステップ時間値"
 
-msgid "ManageIQ::Showback::Tier|Step unit"
-msgstr "ManageIQ::Showback::Tier|ステップ・ユニット"
+msgid "MCM::Showback::Tier|Step unit"
+msgstr "MCM::Showback::Tier|ステップ・ユニット"
 
-msgid "ManageIQ::Showback::Tier|Step value"
-msgstr "ManageIQ::Showback::Tier|ステップ値"
+msgid "MCM::Showback::Tier|Step value"
+msgstr "MCM::Showback::Tier|ステップ値"
 
-msgid "ManageIQ::Showback::Tier|Tier end value"
-msgstr "ManageIQ::Showback:: Tier|Tier の終了値"
+msgid "MCM::Showback::Tier|Tier end value"
+msgstr "MCM::Showback:: Tier|Tier の終了値"
 
-msgid "ManageIQ::Showback::Tier|Tier start value"
-msgstr "ManageIQ::Showback::Tier|Tier 開始値"
+msgid "MCM::Showback::Tier|Tier start value"
+msgstr "MCM::Showback::Tier|Tier 開始値"
 
-msgid "ManageIQ::Showback::Tier|Variable rate currency"
-msgstr "ManageIQ::Showback::Tier|変動レート通貨"
+msgid "MCM::Showback::Tier|Variable rate currency"
+msgstr "MCM::Showback::Tier|変動レート通貨"
 
-msgid "ManageIQ::Showback::Tier|Variable rate per time"
-msgstr "ManageIQ::Showback::Tier|時間ごとの変動率"
+msgid "MCM::Showback::Tier|Variable rate per time"
+msgstr "MCM::Showback::Tier|時間ごとの変動率"
 
-msgid "ManageIQ::Showback::Tier|Variable rate per unit"
-msgstr "ManageIQ::Showback::Tier|ユニットごとの変動率"
+msgid "MCM::Showback::Tier|Variable rate per unit"
+msgstr "MCM::Showback::Tier|ユニットごとの変動率"
 
-msgid "ManageIQ::Showback::Tier|Variable rate subunits"
-msgstr "ManageIQ::Showback::Tier|変動率サブユニット"
+msgid "MCM::Showback::Tier|Variable rate subunits"
+msgstr "MCM::Showback::Tier|変動率サブユニット"
 
 msgid "Manageable"
 msgstr "管理可能"

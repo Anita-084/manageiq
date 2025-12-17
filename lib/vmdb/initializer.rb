@@ -12,6 +12,9 @@ module Vmdb
         MiqUiWorker.preload_for_worker_role
         MiqServer.my_server.starting_server_record
         MiqServer.my_server.update(:status => "started")
+  
+        # Create default cloud providers on first system initialization
+        ExtManagementSystem.create_default_cloud_providers
       end
     end
 

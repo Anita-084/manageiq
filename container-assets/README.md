@@ -1,6 +1,6 @@
-# ManageIQ Docker Appliance
+# MCM Docker Appliance
 
-This image provides ManageIQ using the podified manageiq-ui-worker image as a base along with PostgreSQL.
+This image provides MCM using the podified manageiq-ui-worker image as a base along with PostgreSQL.
 
 ## Build
 
