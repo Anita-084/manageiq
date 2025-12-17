@@ -1,7 +1,7 @@
 ---
 :audit_events:
   :history:
-    :keep_events: 6.months
+    :keep_events: "6.months"
     :purge_window_size: 1000
 :authentication:
   :basedn:
@@ -18,14 +18,14 @@
   :mode: database
   :group_delimiter:
   :max_failed_login_attempts: 3
-  :locked_account_timeout: 2.minutes
+  :locked_account_timeout: "2.minutes"
   :search_timeout: 30
   :user_suffix:
   :user_type: userprincipalname
   :amazon_key:
   :amazon_secret:
 :binary_blob:
-  :keep_orphaned: 1.month
+  :keep_orphaned: "1.month"
   :purge_window_size: 100
 :capacity:
   :profile:
@@ -47,14 +47,14 @@
     :rule: discovered
 :compliances:
   :history:
-    :keep_compliances: 6.months
+    :keep_compliances: "6.months"
     :purge_window_size: 10000
 :coresident_miqproxy:
   :concurrent_per_ems: 1
   :concurrent_per_host: 1
   :scan_via_host: true
 :container_scanning:
-  :scanning_job_timeout: 20.minutes
+  :scanning_job_timeout: "20.minutes"
   :concurrent_per_ems: 3
 :database:
   :maintenance:
@@ -89,11 +89,11 @@
     - VimPerformanceState
     - Vm
 :docs:
-:product_documentation_website: https://www.manageiq.org/docs/
-:product_documentation_direct_link: true
-:product_support_website: https://www.manageiq.org
-:product_support_website_text: MCM.org
-:ansible_provider: https://manageiq.org/docs/reference/latest/managing_providers/#adding-an-ansible-tower-provider
+  :product_documentation_website: https://www.manageiq.org/docs/
+  :product_documentation_direct_link: true
+  :product_support_website: https://www.manageiq.org
+  :product_support_website_text: MCM.org
+  :ansible_provider: https://manageiq.org/docs/reference/latest/managing_providers/#adding-an-ansible-tower-provider
   :cloud_provider: https://manageiq.org/docs/reference/latest/managing_providers/#cloud-providers
   :configuration_provider: https://manageiq.org/docs/reference/latest/managing_providers/#configuration-management-providers
   :container_provider: https://manageiq.org/docs/reference/latest/managing_providers/#containers-providers
@@ -104,7 +104,7 @@
 
 :drift_states:
   :history:
-    :keep_drift_states: 6.months
+    :keep_drift_states: "6.months"
     :purge_window_size: 10000
 :ems:
 # provider specific settings are nested here, but they are in the provider repos
@@ -113,7 +113,7 @@
 #    :use_feature: false
 :event_streams:
   :history:
-    :keep_events: 6.months
+    :keep_events: "6.months"
     :purge_window_size: 1000
   :syndicate_events: false
 :ems_refresh:
@@ -121,8 +121,8 @@
   :capture_vm_created_on_date: false
   :full_refresh_threshold: 100
   :syndicate_inventory: false
-  :raise_vm_snapshot_complete_if_created_within: 15.minutes
-  :refresh_interval: 30.minutes
+  :raise_vm_snapshot_complete_if_created_within: "15.minutes"
+  :refresh_interval: "30.minutes"
 :event_handling:
   :bottleneck_event_groups:
     :Capacity:
@@ -818,19 +818,19 @@
   :about:
     :type: modal
 :host_delete:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_introspect:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_manageable:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_provide:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_scan:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_start:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :host_stop:
-  :queue_timeout: 20.minutes
+  :queue_timeout: "20.minutes"
 :http_proxy:
   :default:
     :host:
@@ -851,47 +851,47 @@
 :miq_request:
   :history:
     :purge_window_size: 500
-    :keep_miq_requests: 6.months
+    :keep_miq_requests: "6.months"
 :notifications:
   :history:
     :purge_window_size: 1000
-    :keep_notifications: 1.week
+    :keep_notifications: "1.week"
 :performance:
   :capture_threshold:
-    :default: 10.minutes
-    :ems_cluster: 50.minutes
-    :host: 50.minutes
-    :storage: 60.minutes
-    :vm: 50.minutes
-    :container: 50.minutes
-    :container_group: 50.minutes
-    :container_node: 50.minutes
+    :default: "10.minutes"
+    :ems_cluster: "50.minutes"
+    :host: "50.minutes"
+    :storage: "60.minutes"
+    :vm: "50.minutes"
+    :container: "50.minutes"
+    :container_group: "50.minutes"
+    :container_node: "50.minutes"
   :capture_threshold_with_alerts:
-    :default: 1.minutes
-    :host: 20.minutes
-    :vm: 20.minutes
+    :default: "1.minutes"
+    :host: "20.minutes"
+    :vm: "20.minutes"
   :history:
     :initial_capture_days: 0
-    :keep_daily_performances: 6.months
-    :keep_hourly_performances: 6.months
-    :keep_realtime_performances: 4.hours
+    :keep_daily_performances: "6.months"
+    :keep_hourly_performances: "6.months"
+    :keep_realtime_performances: "4.hours"
     :purge_window_size: 1000
-    :queue_timeout: 20.minutes
+    :queue_timeout: "20.minutes"
   :host_overhead:
-    :memory: 2.01.percent
-    :cpu: 0.15.percent
+    :memory: "2.01.percent"
+    :cpu: "0.15.percent"
   :syndicate_metrics: false
   :targets:
-    :archived_for: 8.hours
-  :vim_cache_ttl: 1.hour
+    :archived_for: "8.hours"
+  :vim_cache_ttl: "1.hour"
 :policy_events:
   :history:
-    :keep_policy_events: 6.months
+    :keep_policy_events: "6.months"
     :purge_window_size: 1000
 :container_entities:
   :history:
-    :keep_archived_entities: 6.months
-    :keep_archived_quotas: 6.months
+    :keep_archived_entities: "6.months"
+    :keep_archived_quotas: "6.months"
     :purge_window_size: 1000
 :product:
   :name:
@@ -900,13 +900,13 @@
   :allow_api_service_ordering: true
 :recommendations:
   :cpu_minimum: 1
-  :mem_minimum: 32.megabytes
+  :mem_minimum: "32.megabytes"
 :reporting:
   :chart_top_values: 10
   :history:
-    :keep_reports: 6.months
+    :keep_reports: "6.months"
     :purge_window_size: 100
-  :queue_timeout: 1.hour
+  :queue_timeout: "1.hour"
   :use_sql_view: false
 :repository_scanning:
   :defaultsmartproxy:
@@ -924,64 +924,64 @@
   :custom_favicon: false
   :events:
     :disk_usage_gt_percent: 80
-  :heartbeat_timeout: 2.minutes
-  :heartbeat_frequency: 30.seconds
+  :heartbeat_timeout: "2.minutes"
+  :heartbeat_frequency: "30.seconds"
   :host:
   :listening_port: '443'
-  :memory_threshold: 2.gigabytes
+  :memory_threshold: "2.gigabytes"
   :mks_classid: 338095E4-1806-4BA3-AB51-38A3179200E9
   :mks_version: 2.1.0.0
-  :monitor_poll: 5.seconds
-  :monitor_server_roles_timeout: 5.minutes
+  :monitor_poll: "5.seconds"
+  :monitor_server_roles_timeout: "5.minutes"
   :prefetch_max_per_worker: 10
   :prefetch_max_per_worker_dequeue: 100
   :prefetch_min_per_worker_dequeue: 10
-  :prefetch_stale_threshold: 30.seconds
+  :prefetch_stale_threshold: "30.seconds"
   :rate_limiting:
     :api_login:
       :limit: 5
-      :period: 20.seconds
+      :period: "20.seconds"
     :request:
       :limit: 300
-      :period: 5.minutes
+      :period: "5.minutes"
     :ui_login:
       :limit: 5
-      :period: 20.seconds
+      :period: "20.seconds"
   :role: database_operations,event,reporting,scheduler,smartstate,ems_operations,ems_inventory,ems_metrics_collector,ems_metrics_coordinator,ems_metrics_processor,notifier,user_interface,remote_console,web_services,automate
-  :server_dequeue_frequency: 5.seconds
-  :server_log_frequency: 5.minutes
-  :server_log_timings_threshold: 1.second
-  :server_monitor_frequency: 60.seconds
-  :server_role_monitor_frequency: 15.seconds
+  :server_dequeue_frequency: "5.seconds"
+  :server_log_frequency: "5.minutes"
+  :server_log_timings_threshold: "1.second"
+  :server_monitor_frequency: "60.seconds"
+  :server_role_monitor_frequency: "15.seconds"
   :session_store: cache
   :startup_timeout: 300
-  :stop_poll: 10.seconds
+  :stop_poll: "10.seconds"
   :timezone: UTC
-  :worker_dequeue_frequency: 3.seconds
-  :worker_messaging_frequency: 5.seconds
-  :worker_monitor_frequency: 15.seconds
+  :worker_dequeue_frequency: "3.seconds"
+  :worker_messaging_frequency: "5.seconds"
+  :worker_monitor_frequency: "15.seconds"
   :worker_monitor:
     :enforce_resource_constraints: false
     :kill_algorithm:
       :name: used_swap_percent_gt_value
       :value: 80
-    :miq_server_time_threshold: 2.minutes
+    :miq_server_time_threshold: "2.minutes"
     :nice_delta: 1
-    :poll: 2.seconds
+    :poll: "2.seconds"
     :start_algorithm:
       :name: used_swap_percent_lt_value
       :value: 60
-    :sync_interval: 30.minutes
-    :wait_for_started_timeout: 10.minutes
+    :sync_interval: "30.minutes"
+    :wait_for_started_timeout: "10.minutes"
 :session:
   :interval: 60
   :memcache_server: 127.0.0.1:11211
   :show_login_info: true
   :timeout: 3600
-  :log_threshold: 100.kilobytes
-  :element_threshold: 10.kilobytes
+  :log_threshold: "100.kilobytes"
+  :element_threshold: "10.kilobytes"
 :smartproxy_deploy:
-  :queue_timeout: 30.minutes
+  :queue_timeout: "30.minutes"
 :smtp:
   :authentication: login
   :domain: mydomain.com
@@ -998,7 +998,7 @@
   :ssl_ca_path:
 :storage:
   :alignment:
-    :boundary: 4.kilobytes
+    :boundary: "4.kilobytes"
   :collection:
     :timeout: 1800
   :debris:
@@ -1016,18 +1016,18 @@
       - "%redo%"
   :max_parallel_scans_per_ems: 5
   :max_qitems_per_scan_request: 0
-  :watchdog_interval: 1.minute
+  :watchdog_interval: "1.minute"
 :task:
-  :active_task_timeout: 6.hours
+  :active_task_timeout: "6.hours"
   :history:
-    :keep_tasks: 1.week
+    :keep_tasks: "1.week"
     :purge_window_size: 1000
 :ui:
   :mark_translated_strings: false
   :url:
 :vim_performance_states:
   :history:
-    :keep_states: 6.months
+    :keep_states: "6.months"
     :purge_window_size: 1000
 :webservices:
   :consume_protocol: https
@@ -1039,7 +1039,7 @@
   :provide_protocol: https
   :security: none
   :timeout: 120
-  :authentication_timeout: 30.seconds
+  :authentication_timeout: "30.seconds"
   :url:
 :workers:
   :worker_base:
@@ -1047,32 +1047,32 @@
       :count: 1
       :cpu_request_percent: 5
       :cpu_threshold_percent: 100
-      :gc_interval: 15.minutes
-      :heartbeat_freq: 10.seconds
-      :heartbeat_timeout: 2.minutes
-      :memory_request: 500.megabytes
-      :memory_threshold: 1.gigabytes
+      :gc_interval: "15.minutes"
+      :heartbeat_freq: "10.seconds"
+      :heartbeat_timeout: "2.minutes"
+      :memory_request: "500.megabytes"
+      :memory_threshold: "1.gigabytes"
       :nice_delta: 10
-      :parent_time_threshold: 3.minutes
-      :poll: 3.seconds
-      :poll_escalate_max: 30.seconds
+      :parent_time_threshold: "3.minutes"
+      :poll: "3.seconds"
+      :poll_escalate_max: "30.seconds"
       :poll_method: normal
-      :starting_timeout: 10.minutes
-      :stopping_timeout: 10.minutes
+      :starting_timeout: "10.minutes"
+      :stopping_timeout: "10.minutes"
     :event_catcher:
       :defaults:
         :flooding_events_per_minute: 30
         :flooding_monitor_enabled: false
         :ems_event_page_size: 100
-        :ems_event_thread_shutdown_timeout: 10.seconds
-        :memory_threshold: 2.gigabytes
+        :ems_event_thread_shutdown_timeout: "10.seconds"
+        :memory_threshold: "2.gigabytes"
         :nice_delta: 1
-        :poll: 1.seconds
+        :poll: "1.seconds"
     :queue_worker_base:
       :defaults:
         :dequeue_method: drb
         :poll_method: normal
-        :queue_timeout: 10.minutes
+        :queue_timeout: "10.minutes"
       :automation_worker: {}
       :ems_metrics_collector_worker:
         :defaults:
@@ -1086,11 +1086,11 @@
       :ems_operations_worker: {}
       :ems_refresh_worker:
         :defaults:
-          :memory_threshold: 2.gigabytes
+          :memory_threshold: "2.gigabytes"
           :nice_delta: 7
-          :poll: 10.seconds
+          :poll: "10.seconds"
           :poll_method: normal
-          :queue_timeout: 120.minutes
+          :queue_timeout: "120.minutes"
           :dequeue_method: sql
       :event_handler:
         :dequeue_method: miq_messaging
@@ -1100,60 +1100,60 @@
       :priority_worker:
         :count: 2
         :nice_delta: 1
-        :poll: 1.seconds
+        :poll: "1.seconds"
       :reporting_worker:
         :count: 2
         :nice_delta: 7
       :smart_proxy_worker:
         :count: 2
-        :memory_threshold: 2.gigabytes
-        :queue_timeout: 20.minutes
-        :heartbeat_thread_shutdown_timeout: 10.seconds
+        :memory_threshold: "2.gigabytes"
+        :queue_timeout: "20.minutes"
+        :heartbeat_thread_shutdown_timeout: "10.seconds"
     :schedule_worker:
-      :audit_managed_resources: 1.days
-      :audit_events_purge_interval: 1.day
-      :container_entities_purge_interval: 1.day
-      :binary_blob_purge_interval: 1.hour
-      :authentication_check_interval: 1.hour
-      :chargeback_generation_interval: 1.day
+      :audit_managed_resources: "1.days"
+      :audit_events_purge_interval: "1.day"
+      :container_entities_purge_interval: "1.day"
+      :binary_blob_purge_interval: "1.hour"
+      :authentication_check_interval: "1.hour"
+      :chargeback_generation_interval: "1.day"
       :chargeback_generation_time_utc: 01:00:00
-      :compliance_purge_interval: 1.day
-      :container_scan_dispatcher_interval: 15.seconds
-      :db_diagnostics_interval: 30.minutes
-      :drift_state_purge_interval: 1.day
-      :event_streams_purge_interval: 1.day
-      :evm_snapshot_delete_delay_for_job_not_found: 1.hour
-      :evm_snapshot_interval: 1.hour
-      :job_timeout_interval: 60.seconds
-      :log_active_configuration_interval: 1.days
-      :miq_request_purge_interval: 1.week
+      :compliance_purge_interval: "1.day"
+      :container_scan_dispatcher_interval: "15.seconds"
+      :db_diagnostics_interval: "30.minutes"
+      :drift_state_purge_interval: "1.day"
+      :event_streams_purge_interval: "1.day"
+      :evm_snapshot_delete_delay_for_job_not_found: "1.hour"
+      :evm_snapshot_interval: "1.hour"
+      :job_timeout_interval: "60.seconds"
+      :log_active_configuration_interval: "1.days"
+      :miq_request_purge_interval: "1.week"
       :nice_delta: 3
-      :notifications_purge_interval: 1.day
-      :orchestration_stack_retired_interval: 10.minutes
-      :performance_collection_interval: 3.minutes
-      :performance_collection_start_delay: 5.minutes
-      :performance_realtime_purging_interval: 21.minutes
-      :performance_realtime_purging_start_delay: 5.minutes
-      :performance_rollup_purging_interval: 4.hours
-      :performance_rollup_purging_start_delay: 5.minutes
-      :policy_events_purge_interval: 1.day
-      :poll: 15.seconds
-      :queue_timeout_interval: 15.seconds
-      :report_result_purge_interval: 1.week
-      :server_log_stats_interval: 5.minutes
-      :server_stats_interval: 60.seconds
-      :service_retired_interval: 10.minutes
-      :session_timeout_interval: 30.seconds
-      :storage_file_collection_interval: 1.days
+      :notifications_purge_interval: "1.day"
+      :orchestration_stack_retired_interval: "10.minutes"
+      :performance_collection_interval: "3.minutes"
+      :performance_collection_start_delay: "5.minutes"
+      :performance_realtime_purging_interval: "21.minutes"
+      :performance_realtime_purging_start_delay: "5.minutes"
+      :performance_rollup_purging_interval: "4.hours"
+      :performance_rollup_purging_start_delay: "5.minutes"
+      :policy_events_purge_interval: "1.day"
+      :poll: "15.seconds"
+      :queue_timeout_interval: "15.seconds"
+      :report_result_purge_interval: "1.week"
+      :server_log_stats_interval: "5.minutes"
+      :server_stats_interval: "60.seconds"
+      :service_retired_interval: "10.minutes"
+      :session_timeout_interval: "30.seconds"
+      :storage_file_collection_interval: "1.days"
       :storage_file_collection_time_utc: 21600
-      :task_purge_interval: 1.day
-      :task_timeout_check_frequency: 1.hour
-      :vim_performance_states_purge_interval: 1.day
-      :vm_retired_interval: 10.minutes
-      :vm_scan_dispatcher_interval: 15.seconds
-      :image_import_dispatcher_interval: 30.seconds
-      :vm_scan_dispatcher_stale_message_check_interval: 60.seconds
-      :vm_scan_dispatcher_stale_message_timeout: 2.minutes
+      :task_purge_interval: "1.day"
+      :task_timeout_check_frequency: "1.hour"
+      :vim_performance_states_purge_interval: "1.day"
+      :vm_retired_interval: "10.minutes"
+      :vm_scan_dispatcher_interval: "15.seconds"
+      :image_import_dispatcher_interval: "30.seconds"
+      :vm_scan_dispatcher_stale_message_check_interval: "60.seconds"
+      :vm_scan_dispatcher_stale_message_timeout: "2.minutes"
     :ui_worker:
       :connection_pool_size: 8
       :count: 2

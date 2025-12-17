@@ -229,9 +229,9 @@ group :openstack, :manageiq_default do
   manageiq_plugin "manageiq-providers-openstack"
 end
 
-#group :ovirt, :manageiq_default do
-#  manageiq_plugin "manageiq-providers-ovirt"
-#end
+group :ovirt, :manageiq_default do
+  manageiq_plugin "manageiq-providers-ovirt"
+end
 
 group :vmware, :manageiq_default do
   manageiq_plugin "manageiq-providers-vmware"
