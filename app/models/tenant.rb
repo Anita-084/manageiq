@@ -1,8 +1,8 @@
 require 'ancestry'
 
 class Tenant < ApplicationRecord
-  HARDCODED_LOGO = "custom_logo.png"
-  HARDCODED_LOGIN_LOGO = "custom_login_logo.png"
+  HARDCODED_LOGO = "MCM ICON.svg"
+  HARDCODED_LOGIN_LOGO = "MCM ICON.svg"
   DEFAULT_URL = nil
 
   include ActiveVmAggregationMixin
